@@ -39,7 +39,7 @@ void loop()
   //lcd.noDisplay(); //Tắt LCD
   delay(1000);
   
-  //lcd.display(); //Mở LCD
+  lcd.display(); //Mở LCD
   lcd.setCursor(1, 1); // Chọn cột 1 và hàng 1
   lcd.print("I LOVE ARDUINO");
   delay(5000);
